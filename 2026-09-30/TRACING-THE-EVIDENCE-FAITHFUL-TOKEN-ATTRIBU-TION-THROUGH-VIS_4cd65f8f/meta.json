@@ -4,5 +4,34 @@
  "title": "TRACING-THE-EVIDENCE-FAITHFUL-TOKEN-ATTRIBU-TION-THROUGH-VIS",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-30 18:50:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5583a2a7-179c-4540-8fcc-3e1d428c4e52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5583a2a7-179c-4540-8fcc-3e1d428c4e52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:12:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "token attribution",
+    "vision-language models",
+    "multimodal interpretability",
+    "chain-of-thought reasoning",
+    "Shapley value calibration",
+    "multi-hop attribution"
+   ],
+   "field": "多模态大模型可解释性",
+   "innovations": [
+    "模态感知配对归因矩阵去除同模态共享分量以提取Token特异性贡献",
+    "闭式Katz级数聚合所有直接和间接推理路径实现完整多跳归因",
+    "基于双人Shapley值的跨模量分数校准实现图像与文本公平联合排名"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "MathVista",
+    "MMMU",
+    "MMMU-Pro",
+    "MathVerse",
+    "VisualPuzzles"
+   ]
+  }
+ }
 }

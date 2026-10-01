@@ -4,5 +4,34 @@
  "title": "TRACING-THE-EVIDENCE-FAITHFUL-TOKEN-ATTRIBU-TION-THROUGH-VIS",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-30 08:03:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5583a2a7-179c-4540-8fcc-3e1d428c4e52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5583a2a7-179c-4540-8fcc-3e1d428c4e52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:11:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "token attribution",
+    "vision-language model",
+    "multimodal interpretability",
+    "chain-of-thought reasoning",
+    "Shapley value calibration",
+    "information flow tracing"
+   ],
+   "field": "多模态大模型可解释性",
+   "innovations": [
+    "提出VTRACE框架，结合模态中心化成对归因与Katz闭合形式多跳路径聚合",
+    "引入跨模态Shapley校准实现图像与文本归因分数的公平统一排名",
+    "探索归因信号用于GRPO后训练，将Qwen3-VL-4B平均性能提升1.28"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "MathVista",
+    "MMMU",
+    "MMMU-Pro",
+    "MathVerse",
+    "VisualPuzzles"
+   ]
+  }
+ }
 }

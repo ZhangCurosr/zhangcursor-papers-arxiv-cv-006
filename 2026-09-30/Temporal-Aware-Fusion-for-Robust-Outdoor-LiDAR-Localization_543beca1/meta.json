@@ -4,5 +4,31 @@
  "title": "Temporal-Aware-Fusion-for-Robust-Outdoor-LiDAR-Localization",
  "token": "sk-eUuUuX3MU...",
  "created_at": "2026-09-30 18:52:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8ad645f-41fd-460e-8d5c-5f04e779eb15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d8ad645f-41fd-460e-8d5c-5f04e779eb15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:14:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LiDAR Relocalization",
+    "Scene Coordinate Regression",
+    "Temporal Consistency",
+    "Uncertainty Estimation",
+    "Point Cloud Registration",
+    "Outdoor Localization"
+   ],
+   "field": "LiDAR 定位与重定位",
+   "innovations": [
+    "提出时序感知 LiDAR 重定位框架 TempLoc，通过点级时序一致性建模提升动态环境鲁棒性",
+    "设计全局坐标估计模块，同步预测场景坐标与点级不确定性以抑制单帧外点",
+    "提出不确定性引导的端到端坐标融合模块，自适应加权融合时序先验与测量估计"
+   ],
+   "benchmarks": [
+    "Oxford RobotCar Dataset",
+    "NCLT Dataset",
+    "QE-Oxford"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "THE-DOMAIN-IS-A-RESIDUE-ADAPTING-SELF-SUPERVISED-FEATURES-NO",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-30 18:53:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f34294a-2f09-4a61-9aa2-dd1507c17b41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f34294a-2f09-4a61-9aa2-dd1507c17b41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:12:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised feature adaptation",
+    "unpaired image-to-image translation",
+    "adverse weather removal",
+    "sim-to-real",
+    "deterministic adapter",
+    "frozen decoder",
+    "residue decomposition"
+   ],
+   "field": "无配对图像翻译与域适应",
+   "innovations": [
+    "首个在冻结 DINO 自监督特征空间内学习的域间适配器（RFA），证明 VAE 潜变量上同一适配器坍缩而 DINO 特征上有效",
+    "量化源域外观仅占 DINO 特征范数的 13-14%（residue），适配器仅移动残留保留场景主体",
+    "跨组解码器可移植性验证：PiD/RAE 从未见过 RFA 仍可正确渲染其输出"
+   ],
+   "benchmarks": [
+    "ACDC fog/snow/rain→clear",
+    "HIVIS haze→clear",
+    "BDD100K night→day",
+    "PreSIL→Mapillary Vistas sim-to-real",
+    "CycleGAN horse→zebra (Appendix C.7)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Think-Before-You-Score-Thinking-Reward-Model-for-Visual-Gene",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-30 18:50:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c514f384-b50c-47f4-b1d9-90101548b8c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c514f384-b50c-47f4-b1d9-90101548b8c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:14:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual reward modeling",
+    "thinking reward model",
+    "reinforcement learning",
+    "image generation",
+    "image editing",
+    "pairwise preference optimization",
+    "rubric-guided evaluation"
+   ],
+   "field": "视觉生成奖励建模",
+   "innovations": [
+    "提出Think Before You Score范式，为每个案例动态生成case-adaptive rubric后再打分",
+    "提出PD-GRPO算法，通过hard-margin双组相对优势避免Bradley-Terry分数极化问题",
+    "构建统一多任务SFT+RL数据管道，9B模型超越72B特化奖励模型并显著提升下游生成质量"
+   ],
+   "benchmarks": [
+    "GenAI-T2I",
+    "MMRB2-T2I",
+    "EditScore-ERB",
+    "EditReward-ERB",
+    "EditReward-Compass",
+    "GenEval",
+    "TIIF-Bench",
+    "ImgEdit",
+    "GEdit-Bench"
+   ]
+  }
+ }
 }

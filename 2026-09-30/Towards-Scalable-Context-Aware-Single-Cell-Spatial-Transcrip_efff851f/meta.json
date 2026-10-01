@@ -4,5 +4,32 @@
  "title": "Towards-Scalable-Context-Aware-Single-Cell-Spatial-Transcrip",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-09-30 08:08:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b23651cd-c0a6-4a5e-96aa-bb9e19f83ed7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b23651cd-c0a6-4a5e-96aa-bb9e19f83ed7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:15:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "single-cell spatial transcriptomics",
+    "histology-to-gene prediction",
+    "pathology foundation model",
+    "grid sampling",
+    "cross-attention",
+    "distance-decay",
+    "scalable computational pathology"
+   ],
+   "field": "计算病理与空间组学",
+   "innovations": [
+    "单次PFM前向+grid sampling实现所有细胞的亚token级位置查询",
+    "distance-decay cross-attention显式注入局部形态上下文先验",
+    "cell-level与patch-level双损失联合训练消除弱监督瓶颈"
+   ],
+   "benchmarks": [
+    "HEST-1k Xenium-52",
+    "10X-Xenium single-cell paired WSI",
+    "MPG/HVG/SVG top-k Pearson correlation"
+   ]
+  }
+ }
 }

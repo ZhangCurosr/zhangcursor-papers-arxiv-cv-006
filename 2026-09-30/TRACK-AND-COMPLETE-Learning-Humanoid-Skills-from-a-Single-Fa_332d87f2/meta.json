@@ -4,5 +4,31 @@
  "title": "TRACK-AND-COMPLETE-Learning-Humanoid-Skills-from-a-Single-Fa",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-09-30 18:52:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/700361cd-26a0-49f4-af89-556a003632a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/700361cd-26a0-49f4-af89-556a003632a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:12:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "humanoid skill learning",
+    "failed demonstration",
+    "video imitation",
+    "point-of-no-return",
+    "vision-language model",
+    "reinforcement learning",
+    "motion retargeting"
+   ],
+   "field": "基于视频的机器人技能学习",
+   "innovations": [
+    "首个从单失败视频提取有效前缀并推断意图完成完整任务的方法",
+    "引入PoNR概念实现从追踪前缀到任务奖励的平滑切换",
+    "统一策略相比双策略链降低2.1倍关节抖动"
+   ],
+   "benchmarks": [
+    "Oops! dataset",
+    "Isaac Gym Unitree G1 simulation"
+   ]
+  }
+ }
 }

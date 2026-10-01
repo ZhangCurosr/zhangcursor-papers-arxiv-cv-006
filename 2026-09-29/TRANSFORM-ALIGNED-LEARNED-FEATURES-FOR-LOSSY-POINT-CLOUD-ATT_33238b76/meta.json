@@ -4,5 +4,31 @@
  "title": "TRANSFORM-ALIGNED-LEARNED-FEATURES-FOR-LOSSY-POINT-CLOUD-ATT",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-09-29 19:07:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d838d5a0-2525-4e25-a416-cacc2181bb27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d838d5a0-2525-4e25-a416-cacc2181bb27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "点云属性压缩",
+    "变换编码",
+    "码率-失真优化",
+    "深度学习压缩",
+    "特征对齐"
+   ],
+   "field": "点云压缩",
+   "innovations": [
+    "提出TALF显式将属性变换作用于学习特征实现对齐",
+    "建立一阶近似理论保证有界余项",
+    "设计QS兼容的系数域统一RD优化框架"
+   ],
+   "benchmarks": [
+    "G-PCCv33",
+    "3DAC",
+    "DeepRAHT",
+    "Unicorn"
+   ]
+  }
+ }
 }

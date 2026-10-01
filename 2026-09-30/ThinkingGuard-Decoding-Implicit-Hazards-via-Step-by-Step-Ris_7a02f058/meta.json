@@ -4,5 +4,36 @@
  "title": "ThinkingGuard-Decoding-Implicit-Hazards-via-Step-by-Step-Ris",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-09-30 08:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f96835b2-b683-4fd4-bdf1-019b865f71a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f96835b2-b683-4fd4-bdf1-019b865f71a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:15:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal implicit risk detection",
+    "situation awareness",
+    "Monte Carlo Tree Search",
+    "preference alignment",
+    "multimodal safety",
+    "reasoning-based safety"
+   ],
+   "field": "多模态大模型安全对齐",
+   "innovations": [
+    "提出 TriggerBench 首个显式建模风险组合性的隐式风险数据集，通过反事实安全替换消除单模态风险残留",
+    "设计 SA-MCTS 过程奖励驱动的轨迹搜索算法，结合动态 Max-Q 回溯与三维度奖励评估（归因准确性/逻辑连贯性/视觉 grounding）",
+    "提出 Dual-Constraint Preference Alignment，融合全轨迹 DPO 与关键步增强，在脆弱推理节点施加差异化监督"
+   ],
+   "benchmarks": [
+    "TriggerBench",
+    "MSSBench",
+    "MMIT",
+    "USB",
+    "VLSBench",
+    "SafeBench",
+    "MMSafetyBench",
+    "JailbreakV-28K-mini"
+   ]
+  }
+ }
 }

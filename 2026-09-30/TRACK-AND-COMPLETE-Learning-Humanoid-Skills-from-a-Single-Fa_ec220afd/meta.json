@@ -4,5 +4,34 @@
  "title": "TRACK-AND-COMPLETE-Learning-Humanoid-Skills-from-a-Single-Fa",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-09-30 08:09:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/700361cd-26a0-49f4-af89-556a003632a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/700361cd-26a0-49f4-af89-556a003632a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:12:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人形机器人技能学习",
+    "失败演示学习",
+    "视频模仿",
+    "强化学习",
+    "PoNR",
+    "VLM奖励生成"
+   ],
+   "field": "基于视频的人形机器人技能学习",
+   "innovations": [
+    "从单个失败人类视频学习完整人形技能，利用可用前缀+推断意图",
+    "提出PoNR概念并设计渐进式跟踪-完成过渡机制"
+   ],
+   "benchmarks": [
+    "Oops!数据集",
+    "Kick target",
+    "Football",
+    "Backflip",
+    "Box jump",
+    "Handstand",
+    "Log walk"
+   ]
+  }
+ }
 }

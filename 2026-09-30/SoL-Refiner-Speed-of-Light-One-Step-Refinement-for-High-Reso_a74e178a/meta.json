@@ -4,5 +4,10 @@
  "title": "SoL-Refiner-Speed-of-Light-One-Step-Refinement-for-High-Reso",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-30 08:09:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/20761004-4710-4295-956b-fc224fad27ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/20761004-4710-4295-956b-fc224fad27ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:11:14",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "UNCOVERING-ORDINAL-MATCHING-BIAS-IN-AUDIO-VISUAL-LLMS",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-09-29 19:08:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dc065854-1b15-4104-8c8d-978f31246a67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dc065854-1b15-4104-8c8d-978f31246a67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Audio-Visual LLMs",
+    "Speaker Attribution",
+    "Bias Diagnosis",
+    "Ordinal-Matching Bias",
+    "Ordinal-Decoupled Fine-Tuning",
+    "Multimodal Reliability"
+   ],
+   "field": "多模态大模型诊断与对齐",
+   "innovations": [
+    "首次诊断并命名 AVLLMs 的序数匹配偏见",
+    "提出仅需 400 条合成数据的序数解耦微调方法",
+    "通过位置编码干预提供因果证据"
+   ],
+   "benchmarks": [
+    "SocialOmni",
+    "DailyOmni",
+    "AVSpeaker"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "V-GYM-ENHANCING-AGENTIC-VISUAL-REASONING-VIA-SKILL-DATA-CO-E",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-09-29 19:07:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/258a8acd-1265-4df9-be40-378c3b10fa19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/258a8acd-1265-4df9-be40-378c3b10fa19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:10:26",
+  "chunks": 1
+ }
 }

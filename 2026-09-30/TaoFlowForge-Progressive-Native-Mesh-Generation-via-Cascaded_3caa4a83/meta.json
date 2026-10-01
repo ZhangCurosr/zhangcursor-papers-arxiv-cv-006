@@ -4,5 +4,30 @@
  "title": "TaoFlowForge-Progressive-Native-Mesh-Generation-via-Cascaded",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-30 18:52:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/16d69f77-90a0-4ed2-bf62-3bf7dad9faaa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/16d69f77-90a0-4ed2-bf62-3bf7dad9faaa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:13:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D mesh generation",
+    "flow matching",
+    "native mesh",
+    "topology generation",
+    "diffusion transformer",
+    "cascaded generation"
+   ],
+   "field": "3D内容生成",
+   "innovations": [
+    "级联渐进式顶点细化架构（64³→512³三级MoE）实现结构稳定与细节保真的统一",
+    "归一化原始空间流匹配+拓扑感知联合损失（软OR边/面先验）解决多分辨率分布失配与拓扑完整性",
+    "源-目标分离投影的边预测设计避免传递性假连接，联合显式法向预测实现无需后处理的正确面片朝向"
+   ],
+   "benchmarks": [
+    "Toys4K",
+    "TE-388"
+   ]
+  }
+ }
 }

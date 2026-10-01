@@ -4,5 +4,32 @@
  "title": "Towards-Scalable-Context-Aware-Single-Cell-Spatial-Transcrip",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-09-30 18:52:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b23651cd-c0a6-4a5e-96aa-bb9e19f83ed7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b23651cd-c0a6-4a5e-96aa-bb9e19f83ed7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:15:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial transcriptomics",
+    "single-cell prediction",
+    "pathology foundation model",
+    "histology image",
+    "grid sampling",
+    "cross-attention",
+    "computational pathology"
+   ],
+   "field": "计算病理与空间组学",
+   "innovations": [
+    "单次PFM前向+可微grid sampling实现所有细胞的位置特异特征提取，消除per-cell前向瓶颈",
+    "距离衰减交叉注意力模块（2D RoPE+Gaussian bias）为每个细胞注入空间局部形态上下文",
+    "端到端单细胞监督训练，避免spot-level弱监督不适定解耦，并揭示全局CLS token不利于细粒度空间预测"
+   ],
+   "benchmarks": [
+    "10X-Xenium-52 (HEST-1k)",
+    "HVG/MPG/SVG top-k PCC",
+    "ID/OOD cross-organ generalization"
+   ]
+  }
+ }
 }

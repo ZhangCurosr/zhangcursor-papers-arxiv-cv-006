@@ -4,5 +4,34 @@
  "title": "Task-Oriented-Visual-Feature-Compression-via-Residual-Vector",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-09-30 18:50:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8459862f-d0eb-49da-b582-5199ce00b0c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8459862f-d0eb-49da-b582-5199ce00b0c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:13:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "设备-边缘协同推理",
+    "任务导向特征压缩",
+    "残差向量量化",
+    "查询感知聚类",
+    "多模态大模型",
+    "量化误差补偿"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "查询感知的DPC-KNN聚类中心选择机制",
+    "RVQ编码结合量化误差补偿适配器的任务导向压缩框架"
+   ],
+   "benchmarks": [
+    "MME",
+    "Real-WorldQA",
+    "MMBench",
+    "MMStar",
+    "AI2D",
+    "ScienceQA",
+    "MMMU"
+   ]
+  }
+ }
 }

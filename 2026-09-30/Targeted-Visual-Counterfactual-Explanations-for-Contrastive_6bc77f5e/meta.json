@@ -4,5 +4,33 @@
  "title": "Targeted-Visual-Counterfactual-Explanations-for-Contrastive",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-30 18:51:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/28ab46d8-97ca-4ddf-a915-b0b0f063ccf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/28ab46d8-97ca-4ddf-a915-b0b0f063ccf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:13:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "反事实解释",
+    "CLIP",
+    "视觉-语言模型",
+    "扩散模型",
+    "图像编辑",
+    "可解释性",
+    "零样本分类"
+   ],
+   "field": "视觉-语言模型可解释性",
+   "innovations": [
+    "首个专为CLIP零样本分类设计的图像级反事实解释方法MACE，结合自适应归因掩码与CLIP引导扩散修复",
+    "提出source-mask和difference-mask两种变体，揭示有效性-接近度-真实感之间的tradeoff关系",
+    "自适应掩码扩展策略：从最小可编辑区域起步逐步扩大，选择首次满足目标类别的最小掩码"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "Food-101",
+    "Oxford-IIIT Pet",
+    "CUB-200"
+   ]
+  }
+ }
 }

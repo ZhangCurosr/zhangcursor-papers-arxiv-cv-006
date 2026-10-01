@@ -4,5 +4,30 @@
  "title": "Speed-in-the-Blind-Spot-An-Interpretability-Analysis-of-Dyna",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-30 08:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ef1ee05-2187-41f9-8870-9cbf18f43d68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ef1ee05-2187-41f9-8870-9cbf18f43d68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:11:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "自动驾驶",
+    "动态感知",
+    "可解释性",
+    "速度估计",
+    "时序整合",
+    "线性探针"
+   ],
+   "field": "自动驾驶感知与VLM可解释性",
+   "innovations": [
+    "提出受控速度估计评估协议，分离状态编码、时序整合与语言读取缺陷",
+    "揭示VLM中表征-语言输出的显著鸿沟（T2探针MAE 4.7-5.8 vs 语言10.2-16.8 km/h）",
+    "通过反事实提示和时序扰动诊断VLM对自车状态的过度依赖与时序 grounding 不足"
+   ],
+   "benchmarks": [
+    "nuScenes"
+   ]
+  }
+ }
 }

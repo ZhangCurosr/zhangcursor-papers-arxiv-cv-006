@@ -4,5 +4,35 @@
  "title": "The-Camera-Inside-the-Editor-Reading-the-Implicit-Camera-of",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-30 18:50:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/860c9de1-b82f-4e1e-9188-27a197e1863e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/860c9de1-b82f-4e1e-9188-27a197e1863e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:14:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像编辑",
+    "相机标定",
+    "隐式相机",
+    "涂绘探针",
+    "几何感知",
+    "生成模型评估"
+   ],
+   "field": "生成模型的几何理解与评估",
+   "innovations": [
+    "提出免训练的涂绘校准探针方法，通过经典射影几何读出图像编辑器隐式相机参数",
+    "揭示编辑器隐式相机的roll水平先验与约30mm焦距默认先验",
+    "区分编辑器“涂绘几何知识”与“命名几何知识”，建立行为探测范式"
+   ],
+   "benchmarks": [
+    "Qwen-Image-Edit-2511",
+    "FLUX.1 Kontext",
+    "LongCat-Image-Edit",
+    "GeoCalib",
+    "MoGe-2",
+    "NYUv2",
+    "SR-RAW"
+   ]
+  }
+ }
 }

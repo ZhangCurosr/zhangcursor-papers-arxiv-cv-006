@@ -4,5 +4,31 @@
  "title": "The-Camera-Inside-the-Editor-Reading-the-Implicit-Camera-of",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-30 08:07:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/860c9de1-b82f-4e1e-9188-27a197e1863e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/860c9de1-b82f-4e1e-9188-27a197e1863e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:14:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image editing",
+    "camera calibration",
+    "implicit camera",
+    "painting probe",
+    "vanishing point",
+    "generative model geometry"
+   ],
+   "field": "生成模型的几何感知与相机标定",
+   "innovations": [
+    "提出无训练的绘制校准探针方法测量编辑器的隐式相机参数",
+    "发现编辑器roll趋向水平、焦距趋向约30mm的两个隐式先验",
+    "揭示隐式绘制知识与显式命名知识的分离现象"
+   ],
+   "benchmarks": [
+    "Blender Camera Catalog (120 cameras)",
+    "NYUv2",
+    "SR-RAW optical zoom sequences"
+   ]
+  }
+ }
 }

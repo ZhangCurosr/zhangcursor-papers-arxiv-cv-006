@@ -4,5 +4,36 @@
  "title": "TReVS-Integrating-Textual-Relevance-and-Visual-Saliency-for",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-30 08:02:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e548b07c-c4cc-47ee-8e76-96482b4b71de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e548b07c-c4cc-47ee-8e76-96482b4b71de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:12:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual token pruning",
+    "vision-language models",
+    "efficient inference",
+    "two-stage pruning",
+    "textual relevance",
+    "attention variance"
+   ],
+   "field": "高效视觉语言模型推理",
+   "innovations": [
+    "将文本相关性引入预LLM剪枝阶段，与视觉显著性互补以提升查询相关证据保留率",
+    "利用高方差注意力头作为无训练的查询敏感head选择标准，提升in-LLM剪枝判别力"
+   ],
+   "benchmarks": [
+    "GQA",
+    "TextVQA",
+    "POPE",
+    "MME",
+    "MMBench",
+    "ScienceQA",
+    "TGIF-QA",
+    "MSVD-QA",
+    "MSRVTT-QA"
+   ]
+  }
+ }
 }

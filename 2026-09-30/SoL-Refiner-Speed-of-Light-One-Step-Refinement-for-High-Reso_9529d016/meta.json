@@ -4,5 +4,31 @@
  "title": "SoL-Refiner-Speed-of-Light-One-Step-Refinement-for-High-Reso",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-30 18:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/20761004-4710-4295-956b-fc224fad27ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/20761004-4710-4295-956b-fc224fad27ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video refinement",
+    "one-step distillation",
+    "flow matching",
+    "reinforcement learning",
+    "distribution matching distillation",
+    "high-resolution video generation"
+   ],
+   "field": "高分辨率视频生成与蒸馏",
+   "innovations": [
+    "一步视频精炼器：将低分辨率多步生成输出通过单步去噪转换为4K视频，消除第二采样瓶颈",
+    "三阶段训练配方（持续训练+RL后训练+DMD-GAN蒸馏）在保持性能的同时将refiner压缩至单步推理",
+    "Refiner-Bench共享输入基准与跨生成器泛化评测协议"
+   ],
+   "benchmarks": [
+    "Refiner-Bench",
+    "VBench",
+    "UniPercept"
+   ]
+  }
+ }
 }

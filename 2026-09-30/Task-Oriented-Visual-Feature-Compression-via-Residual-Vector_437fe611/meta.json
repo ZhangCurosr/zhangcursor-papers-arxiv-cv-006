@@ -4,5 +4,10 @@
  "title": "Task-Oriented-Visual-Feature-Compression-via-Residual-Vector",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-09-30 08:05:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8459862f-d0eb-49da-b582-5199ce00b0c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8459862f-d0eb-49da-b582-5199ce00b0c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:13:51",
+  "chunks": 1
+ }
 }

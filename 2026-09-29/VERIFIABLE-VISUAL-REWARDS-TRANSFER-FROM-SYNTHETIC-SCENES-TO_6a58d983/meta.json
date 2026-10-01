@@ -4,5 +4,39 @@
  "title": "VERIFIABLE-VISUAL-REWARDS-TRANSFER-FROM-SYNTHETIC-SCENES-TO",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-29 19:06:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2445281c-6f1f-4983-9829-37ba6e6e3c78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2445281c-6f1f-4983-9829-37ba6e6e3c78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:10:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本到图像生成",
+    "可验证奖励",
+    "强化学习",
+    "指令遵循",
+    "合成数据",
+    "扩散模型后训练"
+   ],
+   "field": "文本到图像生成的精确指令遵循",
+   "innovations": [
+    "VVR：首个基于程序化验证器的图像生成确定性奖励框架，无需学习式评估器",
+    "VVRBENCH基准：10K可验证任务揭示前沿模型精确遵循能力差距",
+    "RLVVR训练：合成场景训练向自然提示词迁移，混合现有奖励进一步提升性能"
+   ],
+   "benchmarks": [
+    "VVRBENCH",
+    "VVRBENCH-Challenge",
+    "VVRBENCH-Fast",
+    "GenEval",
+    "GenEval2",
+    "OCR",
+    "PickScore",
+    "HPSv2.1",
+    "HPSv3",
+    "CLIPScore",
+    "ImageReward"
+   ]
+  }
+ }
 }

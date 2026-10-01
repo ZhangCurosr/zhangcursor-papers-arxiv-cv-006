@@ -4,5 +4,37 @@
  "title": "Unified-Trajectory-Matching-Policy-Optimization-Diverse-T2I",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-29 19:07:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/536b631d-6d07-497a-aec9-ce3bdbb520ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/536b631d-6d07-497a-aec9-ce3bdbb520ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:09:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory matching",
+    "diffusion RL post-training",
+    "mode collapse",
+    "text-to-image generation",
+    "vision-language-action",
+    "forward KL",
+    "diversity preservation",
+    "OOD generalization"
+   ],
+   "field": "生成模型强化学习后训练",
+   "innovations": [
+    "统一group-wise前向KL轨迹分布匹配框架，避免reward最大化导致的mode collapse",
+    "progress-conditioned coarse-to-fine T2I采样调度器提升探索与效率",
+    "feedback-conditioned action-chunk VLA采样支持多策略保留与OOD泛化"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "OCR Accuracy",
+    "PickScore",
+    "LIBERO",
+    "MetaWorld-MT50",
+    "CALVIN",
+    "WallDetour"
+   ]
+  }
+ }
 }
