@@ -4,5 +4,33 @@
  "title": "UNIAFFORD-TOKEN-ROUTED-MULTITASK-LEARNING-FOR-GENERALIZABLE",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-30 08:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/741016b2-b365-4ee3-8e83-0ef94bdfd804.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/741016b2-b365-4ee3-8e83-0ef94bdfd804.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:48:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "affordance perception",
+    "multimodal MLLM",
+    "token routing",
+    "2D-3D grounding",
+    "zero-shot generalization",
+    "dense prediction",
+    "multitask learning"
+   ],
+   "field": "多模态具身感知",
+   "innovations": [
+    "Token Router for Tasks：从MLLM隐状态学习分支路由，解耦任务分发与预定义marker生成",
+    "UniAfford-Data：统一2D/3D affordance taxonomy与语义级pseudo-pairing，支持异构监督联合训练"
+   ],
+   "benchmarks": [
+    "AGD20K",
+    "GEAL*",
+    "ReasonAff",
+    "PIAD",
+    "PIADv2"
+   ]
+  }
+ }
 }

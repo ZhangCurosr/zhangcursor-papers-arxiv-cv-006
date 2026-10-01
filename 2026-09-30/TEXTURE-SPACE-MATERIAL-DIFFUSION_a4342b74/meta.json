@@ -4,5 +4,32 @@
  "title": "TEXTURE-SPACE-MATERIAL-DIFFUSION",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-30 08:09:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/713ad5a4-9b22-46d4-8e87-53a3cf4e3670.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/713ad5a4-9b22-46d4-8e87-53a3cf4e3670.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:47:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PBR材质生成",
+    "纹理空间扩散",
+    "多视角一致性",
+    "3D-aware RoPE",
+    "视频扩散模型",
+    "逆渲染",
+    "8K材质重建"
+   ],
+   "field": "3D生成与材质建模",
+   "innovations": [
+    "首个完全在纹理空间生成完整PBR四件套的扩散框架",
+    "提出3D感知的旋转位置编码(3D-aware RoPE)增强UV空间注意力一致性",
+    "免训练的噪声滚动+覆盖加权专家聚合实现8K分辨率与100+视角扩展"
+   ],
+   "benchmarks": [
+    "BlenderVault",
+    "DTC (Digital Twin Catalog)",
+    "TexVerse"
+   ]
+  }
+ }
 }

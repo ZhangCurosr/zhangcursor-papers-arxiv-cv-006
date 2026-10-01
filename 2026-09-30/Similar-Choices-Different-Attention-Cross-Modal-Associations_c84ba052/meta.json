@@ -4,5 +4,32 @@
  "title": "Similar-Choices-Different-Attention-Cross-Modal-Associations",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-30 18:52:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b4e429c8-02a8-46ba-8cce-4da816fd66b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b4e429c8-02a8-46ba-8cce-4da816fd66b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:46:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-modal association",
+    "bouba-kiki",
+    "vision-language model",
+    "eye-tracking",
+    "attention alignment",
+    "sound symbolism"
+   ],
+   "field": "多模态认知对齐评估",
+   "innovations": [
+    "选择与注意力解耦：证明VLM选择对齐不意味着空间注意力对齐",
+    "中心偏差基线优于VLM saliency预测人类眼动",
+    "gaze监督提升空间相关但不可迁移至选择性能"
+   ],
+   "benchmarks": [
+    "人类- VLM 匹配刺激对比（8,208 trials, 53 participants）",
+    "Intended-category agreement (ICA)",
+    "Spearman gaze-saliency correlation (ρ)",
+    "Human-choice agreement"
+   ]
+  }
+ }
 }

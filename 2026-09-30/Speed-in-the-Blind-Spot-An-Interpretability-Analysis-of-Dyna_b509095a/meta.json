@@ -4,5 +4,10 @@
  "title": "Speed-in-the-Blind-Spot-An-Interpretability-Analysis-of-Dyna",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-30 18:52:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ef1ee05-2187-41f9-8870-9cbf18f43d68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5ef1ee05-2187-41f9-8870-9cbf18f43d68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:47:42",
+  "chunks": 1
+ }
 }

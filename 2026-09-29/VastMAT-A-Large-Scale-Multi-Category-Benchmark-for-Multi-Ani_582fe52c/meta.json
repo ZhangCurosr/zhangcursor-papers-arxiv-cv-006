@@ -4,5 +4,30 @@
  "title": "VastMAT-A-Large-Scale-Multi-Category-Benchmark-for-Multi-Ani",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-29 19:09:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e8c30603-68bd-4722-8030-3760f62ff4df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e8c30603-68bd-4722-8030-3760f62ff4df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:47:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-animal tracking",
+    "benchmark",
+    "cross-category generalization",
+    "geometric association",
+    "low-overlap matching",
+    "MOT dataset"
+   ],
+   "field": "多目标追踪与视频理解",
+   "innovations": [
+    "构建337类别2947视频的大规模MAT基准与Seen/Unseen双协议评估体系",
+    "提出训练-free的CDA模块通过尺度归一化CenterSim与IoU自适应融合提升低重叠关联性能"
+   ],
+   "benchmarks": [
+    "VastMAT",
+    "Protocol 1 (Seen-category)",
+    "Protocol 2 (Unseen-category, category-disjoint)"
+   ]
+  }
+ }
 }

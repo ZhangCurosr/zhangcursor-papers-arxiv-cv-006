@@ -4,5 +4,33 @@
  "title": "THE-DOMAIN-IS-A-RESIDUE-ADAPTING-SELF-SUPERVISED-FEATURES-NO",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-30 08:04:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e81d6a99-b785-4953-bf90-d63d43739732.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e81d6a99-b785-4953-bf90-d63d43739732.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:48:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督特征",
+    "无配对图像翻译",
+    "领域适应",
+    "DINO",
+    "扩散模型",
+    "恶劣天气清除",
+    "sim-to-real"
+   ],
+   "field": "自监督特征空间的无配对图像翻译",
+   "innovations": [
+    "提出RFA：在冻结DINO特征空间内学习轻量域映射（2.9M参数），域残差仅占特征范数13-14%",
+    "证明VAE latent上适配器坍缩为恒等变换，揭示特征空间有损性是实现域翻译的关键前提",
+    "首个证明跨解码器端口性的特征翻译方法，同一适配器可由PiD/RAE等不同解码器渲染"
+   ],
+   "benchmarks": [
+    "ACDC (fog/snow/rain)",
+    "HIVIS haze",
+    "BDD100K night-to-day",
+    "PreSIL to Mapillary Vistas sim-to-real"
+   ]
+  }
+ }
 }

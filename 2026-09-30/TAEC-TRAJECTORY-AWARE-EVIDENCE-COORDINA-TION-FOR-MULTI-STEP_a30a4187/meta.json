@@ -4,5 +4,31 @@
  "title": "TAEC-TRAJECTORY-AWARE-EVIDENCE-COORDINA-TION-FOR-MULTI-STEP",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-30 08:10:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53463f81-6cf9-41fd-88ac-95970ac79b53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53463f81-6cf9-41fd-88ac-95970ac79b53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:47:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉RAG",
+    "多步推理",
+    "证据协调",
+    "轨迹级记忆管理",
+    "无需训练框架",
+    "视觉语言模型"
+   ],
+   "field": "多步视觉检索增强生成",
+   "innovations": [
+    "首次实证验证轨迹级证据利用退化并提出统一需求状态协调层",
+    "证据准入-记忆曝光-视觉细节分配三组件训练免费协同框架",
+    "在ViDoSeek/SlideVQA/MMLongBench-Doc上以最高平均精度超越所有训练免费基线"
+   ],
+   "benchmarks": [
+    "ViDoSeek",
+    "SlideVQA",
+    "MMLongBench-Doc"
+   ]
+  }
+ }
 }

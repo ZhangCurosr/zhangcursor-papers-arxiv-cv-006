@@ -4,5 +4,30 @@
  "title": "Similar-Choices-Different-Attention-Cross-Modal-Associations",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-30 08:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b4e429c8-02a8-46ba-8cce-4da816fd66b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b4e429c8-02a8-46ba-8cce-4da816fd66b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:46:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-modal association",
+    "bouba-kiki effect",
+    "vision-language models",
+    "eye tracking",
+    "attention alignment",
+    "sound symbolism"
+   ],
+   "field": "多模态认知对齐评估",
+   "innovations": [
+    "在同一刺激上直接对比人类与VLM的选择与空间注意力，揭示选择对齐与注意力对齐的解耦",
+    "提出中心偏置基线证明VLM显著性图质量低于简单启发式",
+    "通过+AvgGaze对照分离trial-specific眼动监督与静态空间先验的贡献"
+   ],
+   "benchmarks": [
+    "Human VLM comparison on bouba-kiki task",
+    "Spatial alignment via Spearman correlation with gaze"
+   ]
+  }
+ }
 }

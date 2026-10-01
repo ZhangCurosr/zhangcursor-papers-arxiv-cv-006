@@ -4,5 +4,34 @@
  "title": "ULTRAMATCH-TRANSPORT-PATH-ROUTING-FOR-ULTRA-FAST-AND-MEMORY",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-30 08:09:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c795e697-31bd-40a8-a943-2163931eac5a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c795e697-31bd-40a8-a943-2163931eac5a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:48:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image matching",
+    "semi-dense matching",
+    "transport path routing",
+    "efficient deep learning",
+    "structural reparameterization",
+    "sparse matching"
+   ],
+   "field": "高效图像特征匹配",
+   "innovations": [
+    "Transport Path Routing 将密集 token 级匹配转化为 block 级路由+稀疏匹配，复杂度从 O(N²) 降至近似 O(N)",
+    "Sparse Global Dual-Softmax 在稀疏候选空间上保留全局匹配竞争",
+    "路由策略可迁移至 ELoFTR/EDM/JamMa/SLiM 等架构，平均带来 ~2× 加速且精度无损"
+   ],
+   "benchmarks": [
+    "MegaDepth-1500",
+    "ScanNet-1500",
+    "HPatches",
+    "Aachen Day-Night v1.1",
+    "InLoc",
+    "ETH3D"
+   ]
+  }
+ }
 }

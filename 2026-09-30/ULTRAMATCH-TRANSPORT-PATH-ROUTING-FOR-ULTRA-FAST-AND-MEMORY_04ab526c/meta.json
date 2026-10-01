@@ -4,5 +4,10 @@
  "title": "ULTRAMATCH-TRANSPORT-PATH-ROUTING-FOR-ULTRA-FAST-AND-MEMORY",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-30 18:52:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c795e697-31bd-40a8-a943-2163931eac5a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c795e697-31bd-40a8-a943-2163931eac5a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:48:41",
+  "chunks": 1
+ }
 }
