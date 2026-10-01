@@ -4,5 +4,33 @@
  "title": "W2REP-LEARNING-VISUAL-REPRESENTATIONS-BY-WATCHING-THE-WORLD",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-29 19:06:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a4356bd1-80e8-4b2b-8b44-4e2869318e2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a4356bd1-80e8-4b2b-8b44-4e2869318e2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:38:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised learning",
+    "masked prediction",
+    "visual representation",
+    "video understanding",
+    "temporal modeling",
+    "ViT"
+   ],
+   "field": "自监督视觉表征学习",
+   "innovations": [
+    "跨帧掩码特征预测目标，将独立编码单帧参与时序预测",
+    "单一ViT同时训练为单图编码器与多帧上下文编码器",
+    "有符号时间偏移与视频上下文联合条件的预测器设计"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ADE20K",
+    "Something-Something V2",
+    "UCF101",
+    "Diving48"
+   ]
+  }
+ }
 }

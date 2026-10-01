@@ -4,5 +4,29 @@
  "title": "Seg3DParts-Segmentation-Grounded-Controllable-Part-Level-3D",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-30 08:06:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/02e9daed-56ef-4f67-8350-e31ffa99466d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/02e9daed-56ef-4f67-8350-e31ffa99466d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:41:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "part-level 3D generation",
+    "segmentation-grounded generation",
+    "multi-part latent interaction",
+    "3D mesh generation",
+    "single-view 3D reconstruction"
+   ],
+   "field": "3D 内容生成",
+   "innovations": [
+    "将 2D 语义分割作为显式部件身份定标信号，实现可控部件级 3D 生成",
+    "结构化跨部件隐式交互机制，在共享规范空间中直接生成对齐的多部件网格",
+    "构建 PartObjectNet 大规模部件级 3D 数据集（200K+ 物体，100W+ 部件标注）"
+   ],
+   "benchmarks": [
+    "PartObjectNet",
+    "PartObjaverse-Tiny"
+   ]
+  }
+ }
 }

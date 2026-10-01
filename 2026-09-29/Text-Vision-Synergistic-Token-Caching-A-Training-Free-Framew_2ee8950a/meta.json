@@ -4,5 +4,30 @@
  "title": "Text-Vision-Synergistic-Token-Caching-A-Training-Free-Framew",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-09-29 19:08:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/659d739e-ddae-4c7b-b8d3-4a12b9983de3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/659d739e-ddae-4c7b-b8d3-4a12b9983de3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:37:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Token Caching",
+    "Training-Free Acceleration",
+    "Text-Vision Synergy",
+    "Robotic Manipulation"
+   ],
+   "field": "视觉-语言-动作模型高效推理",
+   "innovations": [
+    "提出基于文本-视觉信息聚焦的注意力头过滤机制，解决token级空间错位",
+    "设计熵引导的复用层选择机制，缓解层级深度不匹配",
+    "构建训练-free即插即用框架TVCache，在12.5% token保留率下提升14.5pp成功率"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "CALVIN",
+    "Franka Robot Real-World Tasks"
+   ]
+  }
+ }
 }

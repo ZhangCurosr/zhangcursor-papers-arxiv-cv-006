@@ -4,5 +4,38 @@
  "title": "WORLDGRAPH-GRAPH-NATIVE-WORLD-MODELING",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-09-29 19:08:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cfe9bb98-b843-421e-9c7a-8597fe178d53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cfe9bb98-b843-421e-9c7a-8597fe178d53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:39:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图世界模型",
+    "graph-native world modeling",
+    "时序图学习",
+    "强化学习",
+    "图 Transformer",
+    "多粒度结构编码",
+    "过渡感知RL"
+   ],
+   "field": "图表示学习与世界模型",
+   "innovations": [
+    "提出图原生世界建模框架，将演化图本身作为世界动态进行建模而非辅助结构",
+    "设计多粒度图编码器结合跳数传递与随机游走来捕获不同结构尺度",
+    "提出过渡感知GRPO通过动态分组与结构感知奖励解决图过渡频率失衡"
+   ],
+   "benchmarks": [
+    "GWM-Zero",
+    "TGBN-Trade",
+    "TGBN-Genre",
+    "TGBN-Reddit",
+    "UN Vote",
+    "Flights",
+    "Contact",
+    "SocialEvo",
+    "Enron"
+   ]
+  }
+ }
 }

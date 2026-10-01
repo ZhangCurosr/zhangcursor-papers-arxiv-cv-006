@@ -4,5 +4,31 @@
  "title": "TSGATE-TIMESTEP-AWARE-GATED-ATTENTION-FOR-DIFFUSION-TRANSFOR",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-29 19:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ed5caf2-4fee-4dea-906d-1952df2cdc41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ed5caf2-4fee-4dea-906d-1952df2cdc41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:37:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Transformer",
+    "Attention Sink",
+    "Gated Attention",
+    "Prompt Robustness",
+    "Text-to-Image Generation",
+    "OOD Generalization"
+   ],
+   "field": "扩散模型架构与鲁棒性",
+   "innovations": [
+    "提出TSGate，将时间步偏置显式注入门控信号，实现去噪阶段自适应的注意力调控",
+    "揭示OOD提示下DiT失效的机制为注意力汇点与早期图文交互不足",
+    "证明仅在第一层添加时间步分支即可保留绝大部分性能提升，实现高效增强"
+   ],
+   "benchmarks": [
+    "DPG-Bench",
+    "GenEval",
+    "T2I-CompBench"
+   ]
+  }
+ }
 }

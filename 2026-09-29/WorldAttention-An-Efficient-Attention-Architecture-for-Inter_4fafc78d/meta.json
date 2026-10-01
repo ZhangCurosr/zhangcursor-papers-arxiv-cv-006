@@ -4,5 +4,30 @@
  "title": "WorldAttention-An-Efficient-Attention-Architecture-for-Inter",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-09-29 19:07:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/68fd5fc0-c3a3-4a8c-a51e-f8bc101707d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/68fd5fc0-c3a3-4a8c-a51e-f8bc101707d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:40:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive video generation",
+    "long-video world model",
+    "sparse attention",
+    "KV cache management",
+    "system co-design",
+    "linear attention"
+   ],
+   "field": "视频生成与长程记忆",
+   "innovations": [
+    "提出层级KV缓存(HKV)实现GPU/CPU/NVMe三级跨层存储与页面级检索",
+    "混合稀疏注意力(HSA)结合Linformer线性分支与头自适应块稀疏分支",
+    "系统级协同设计：注意力结构+KV管理+硬件感知kernel联合优化"
+   ],
+   "benchmarks": [
+    "VBench-Long",
+    "InterVBench"
+   ]
+  }
+ }
 }

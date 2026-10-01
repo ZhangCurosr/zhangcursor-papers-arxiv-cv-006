@@ -4,5 +4,30 @@
  "title": "Towards-Generalizable-3D-Anomaly-Detection-via-Relational-In",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-29 19:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d05ff9e6-7c4f-4e95-97c1-8983690b42d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d05ff9e6-7c4f-4e95-97c1-8983690b42d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:37:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D异常检测",
+    "点云",
+    "关系建模",
+    "无监督异常检测",
+    "跨域泛化",
+    "伪异常"
+   ],
+   "field": "3D点云异常检测",
+   "innovations": [
+    "提出关系不一致性判据，将伪异常设计为受控几何关系破坏以学习通用缺陷判别",
+    "设计EGR图模块，在边特征中显式编码法向/曲率/位移等几何关系进行消息传递",
+    "设计CDM模块，在结构同类簇内衡量相对偏离替代全局正常分布比较"
+   ],
+   "benchmarks": [
+    "Anomaly-ShapeNet",
+    "Real3D-AD"
+   ]
+  }
+ }
 }

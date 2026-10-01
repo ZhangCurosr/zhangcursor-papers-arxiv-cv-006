@@ -1,0 +1,27 @@
+{
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:37:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon motion generation",
+    "diffusion model",
+    "triangular denoising",
+    "rollout training",
+    "distribution matching",
+    "training-inference mismatch",
+    "human motion synthesis"
+   ],
+   "field": "长周期文本到动作生成",
+   "innovations": [
+    "提出 GT 钳位三角重采样（TR）以弥合三角去噪中部分去噪状态的训练–推理不匹配",
+    "推导统一回放构造支持监督与分布匹配（TR-DMD）两种目标",
+    "在 120 秒生成协议下于非 DMD 与 DMD 两组分别达到 SOTA FID AUC"
+   ],
+   "benchmarks": [
+    "HumanML3D 120-second evaluation (FID AUC, Matching Distance AUC, R-precision AUC and linear slopes)"
+   ]
+  }
+ }
+}

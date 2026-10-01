@@ -4,5 +4,28 @@
  "title": "VideoPhysEdit-Physical-Counterfactual-Video-Editing-via-Rigi",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-29 19:09:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9a34ee35-8799-4d8c-97d4-56ad398fae0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9a34ee35-8799-4d8c-97d4-56ad398fae0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:38:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理反事实视频编辑",
+    "物理场景重建",
+    "刚性体仿真",
+    "视频生成",
+    "物理编辑得分"
+   ],
+   "field": "物理感知视频编辑",
+   "innovations": [
+    "提出训练无微调的物理反事实视频编辑流水线，显式重建刚性体物理场景并仿真引导视频生成",
+    "构建 PCVE-RigidBench 合成基准与物理编辑得分（PES）评估指标",
+    "统一定义多样化物理干预（插入/删除/状态修改/参数修改）及下游运动交互生成任务"
+   ],
+   "benchmarks": [
+    "PCVE-RigidBench"
+   ]
+  }
+ }
 }

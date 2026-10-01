@@ -4,5 +4,10 @@
  "title": "THE-BIGGER-PICTURE",
  "token": "sk-rJF0pjIu8...",
  "created_at": "2026-09-29 08:06:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6c3aff1-d263-4317-ba0f-5566fa561cf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6c3aff1-d263-4317-ba0f-5566fa561cf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:35:31",
+  "chunks": 1
+ }
 }

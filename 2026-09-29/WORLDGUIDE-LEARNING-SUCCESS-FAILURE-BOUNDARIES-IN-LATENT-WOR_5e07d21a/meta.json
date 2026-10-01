@@ -4,5 +4,32 @@
  "title": "WORLDGUIDE-LEARNING-SUCCESS-FAILURE-BOUNDARIES-IN-LATENT-WOR",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-09-29 19:08:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bf75921d-5670-4852-a93b-a545a355f76d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bf75921d-5670-4852-a93b-a545a355f76d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:39:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Latent World Model",
+    "Success-Failure Boundary",
+    "Contrastive Learning",
+    "Differentiable Reward",
+    "Embodied AI"
+   ],
+   "field": "具身智能/机器人操作策略学习",
+   "innovations": [
+    "三阶段失败边界学习框架：失败丰富预训练+对比边界微调+可微奖励端到端优化",
+    "进度锚定+特征最近邻的成功-失败配对机制，消除旁路捷径",
+    "基于预测器交叉注意力的时空加权距离度量，直接作为可微成败判别奖励"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "SimplerEnv",
+    "ARX LIFT2 真实机器人"
+   ]
+  }
+ }
 }

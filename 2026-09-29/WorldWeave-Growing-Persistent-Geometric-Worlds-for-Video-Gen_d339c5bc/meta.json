@@ -4,5 +4,34 @@
  "title": "WorldWeave-Growing-Persistent-Geometric-Worlds-for-Video-Gen",
  "token": "sk-U7bL6pfXM...",
  "created_at": "2026-09-29 19:09:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/06c4acbb-3a07-428c-9911-cb95f7ce4e83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/06c4acbb-3a07-428c-9911-cb95f7ce4e83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:41:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界模型",
+    "持久结构记忆",
+    "地形生成",
+    "场景构建",
+    "视频生成",
+    "几何一致性"
+   ],
+   "field": "生成式世界模型",
+   "innovations": [
+    "解耦世界状态维护与视觉渲染的持久性结构记忆框架",
+    "多尺度残差编码驱动的持续度量地形扩展",
+    "智能体引导的层次化语义规划与确定性几何编译"
+   ],
+   "benchmarks": [
+    "VBench",
+    "MC-GeCo",
+    "MC-MEt3R",
+    "MC-GeoCon",
+    "SMC",
+    "Cam"
+   ]
+  }
+ }
 }

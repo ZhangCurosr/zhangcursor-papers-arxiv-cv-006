@@ -4,5 +4,32 @@
  "title": "WHEN-VLMS-TRUST-CONTEXT-EVALUATING-SCENETEXT-RECOGNITION-UND",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-09-29 19:07:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/82bfa442-fce7-4f6e-94e3-f7d4712e8ab3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/82bfa442-fce7-4f6e-94e3-f7d4712e8ab3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:39:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Scene Text Recognition",
+    "Vision-Language Models",
+    "Hallucination",
+    "Benchmark",
+    "Contextual Rewriting",
+    "Faithfulness"
+   ],
+   "field": "视觉语言模型忠实性评估",
+   "innovations": [
+    "SceneFaith基准与L/C/O三分法评估协议，首次量化VLM在文本-上下文冲突中的重写倾向",
+    "灰度掩码与固定目标补丁等控制变量实验，隔离周围场景对转录行为的因果影响",
+    "发现Thinking模式在忠实转录任务中反而加重重写，并提出SFT+GRPO缓解策略"
+   ],
+   "benchmarks": [
+    "SceneFaith",
+    "TextHalu-Bench",
+    "FaithC4",
+    "OCRBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "WHEN-TEXT-MATTERS-DESIGN-PRINCIPLES-FOR-VISUAL-TOKEN-PRUNING",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-29 19:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f76243a2-cfb1-4f84-8350-8dc4b1d4af3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f76243a2-cfb1-4f84-8350-8dc4b1d4af3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:38:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Token Pruning",
+    "Vision-Language Models",
+    "Training-free Optimization",
+    "Text-to-Visual Attention",
+    "Inference Acceleration"
+   ],
+   "field": "多模态大模型推理效率优化",
+   "innovations": [
+    "发现文本引导在decoder中间层最有效，提出两阶段解耦剪枝策略DeFT",
+    "引入reserve fraction保留额外候选并在中点用text-to-visual attention重选",
+    "在8个benchmark和3个VLM上验证，80%/90%剪枝下平均性能恢复较基线提升11.10/16.84pp"
+   ],
+   "benchmarks": [
+    "TextVQA",
+    "ChartQA",
+    "InfoVQA",
+    "MMMU",
+    "AI2D",
+    "MMStar",
+    "NoCaps",
+    "TextCaps"
+   ]
+  }
+ }
 }

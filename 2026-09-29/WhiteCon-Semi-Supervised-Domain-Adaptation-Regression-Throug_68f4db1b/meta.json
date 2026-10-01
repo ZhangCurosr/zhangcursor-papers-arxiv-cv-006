@@ -4,5 +4,30 @@
  "title": "WhiteCon-Semi-Supervised-Domain-Adaptation-Regression-Throug",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-09-29 19:08:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7151a61c-4d41-4a85-be7b-7d2817dc3385.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7151a61c-4d41-4a85-be7b-7d2817dc3385.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:40:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-supervised domain adaptation",
+    "regression",
+    "whitening transform",
+    "consistency regularization",
+    "domain shift"
+   ],
+   "field": "域适应回归",
+   "innovations": [
+    "首个将白化变换应用于回归任务并提供OLS理论证明",
+    "提出特征方差一致性正则化对齐不同增强强度的特征分布",
+    "结合DWT和双一致性正则化的SSDAR统一框架"
+   ],
+   "benchmarks": [
+    "BIWI",
+    "QMUL",
+    "MPI3D"
+   ]
+  }
+ }
 }

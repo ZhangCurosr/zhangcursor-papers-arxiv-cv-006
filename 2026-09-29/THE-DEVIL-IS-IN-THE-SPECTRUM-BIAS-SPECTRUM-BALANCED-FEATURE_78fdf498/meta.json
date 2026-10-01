@@ -4,5 +4,34 @@
  "title": "THE-DEVIL-IS-IN-THE-SPECTRUM-BIAS-SPECTRUM-BALANCED-FEATURE",
  "token": "sk-alntNRIDw...",
  "created_at": "2026-09-29 19:08:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4544daa8-4bd9-406f-839f-09a0ac94e744.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4544daa8-4bd9-406f-839f-09a0ac94e744.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:36:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识蒸馏",
+    "特征匹配",
+    "谱平衡",
+    "PCA分析",
+    "无标签适应",
+    "representation transfer"
+   ],
+   "field": "知识蒸馏与表示学习",
+   "innovations": [
+    "揭示L2特征匹配谱优化偏差并理论证明梯度范数与特征方差成正比",
+    "提出SpecMatch子线性重构误差聚合目标函数自适应平衡谱方向",
+    "在图像和蛋白质跨模态任务验证谱平衡蒸馏的通用有效性"
+   ],
+   "benchmarks": [
+    "CIFAR-10/100",
+    "NABirds",
+    "CUB",
+    "Camelyon17",
+    "MVTec",
+    "PFMBench-6task"
+   ]
+  }
+ }
 }

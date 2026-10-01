@@ -4,5 +4,10 @@
  "title": "WHAT-PAIRED-EVALUATIONS-REVEAL-UNDER-VISUAL-PERTURBATIONS",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-29 19:06:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be7d3a4d-a5db-4cc9-9805-0167df3540c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be7d3a4d-a5db-4cc9-9805-0167df3540c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:39:58",
+  "chunks": 4
+ }
 }

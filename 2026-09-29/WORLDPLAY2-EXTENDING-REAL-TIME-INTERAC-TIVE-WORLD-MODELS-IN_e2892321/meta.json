@@ -4,5 +4,31 @@
  "title": "WORLDPLAY2-EXTENDING-REAL-TIME-INTERAC-TIVE-WORLD-MODELS-IN",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-29 19:07:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4ad2ca1f-556b-4e18-94b6-202cdd74f936.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4ad2ca1f-556b-4e18-94b6-202cdd74f936.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:40:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive world model",
+    "flow matching",
+    "distribution matching distillation",
+    "compressed memory",
+    "few-step generation",
+    "long-horizon consistency",
+    "factorized control"
+   ],
+   "field": "交互式世界模型与长时域视频生成",
+   "innovations": [
+    "因子化解耦混合控制接口：将帧对齐动作控制与结构化语义控制（场景/角色/事件）显式解耦",
+    "蒸馏导向压缩记忆机制：双分支历史压缩器生成 compact memory token，支持 clip-wise teacher 高效评分",
+    "Stable Forcing 长时域蒸馏框架：PDD 初始化 + full-rollout replay + 分片评分，稳定 few-step 自回归蒸馏"
+   ],
+   "benchmarks": [
+    "WBench",
+    "RevisitBench"
+   ]
+  }
+ }
 }

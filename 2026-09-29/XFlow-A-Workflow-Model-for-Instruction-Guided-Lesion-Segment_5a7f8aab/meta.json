@@ -4,5 +4,30 @@
  "title": "XFlow-A-Workflow-Model-for-Instruction-Guided-Lesion-Segment",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-29 19:07:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/47e6667b-9079-4380-83f0-87bfaca57016.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/47e6667b-9079-4380-83f0-87bfaca57016.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:41:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction-guided lesion segmentation",
+    "chest X-ray",
+    "workflow model",
+    "SAM",
+    "reinforcement learning",
+    "medical image segmentation"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "两阶段工作流：框定位+点精修的由粗到精分割架构",
+    "轨迹级GRPO奖励优化多步修订策略",
+    "在相同MIMIC-ILS标注下超越ROSALIA约8个百分点gIoU"
+   ],
+   "benchmarks": [
+    "CheXpercept",
+    "CheXlocalize"
+   ]
+  }
+ }
 }

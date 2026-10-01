@@ -4,5 +4,30 @@
  "title": "Seg3DParts-Segmentation-Grounded-Controllable-Part-Level-3D",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-30 18:51:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/02e9daed-56ef-4f67-8350-e31ffa99466d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/02e9daed-56ef-4f67-8350-e31ffa99466d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:42:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D generation",
+    "part-level generation",
+    "segmentation grounding",
+    "controllable 3D",
+    "multi-part interaction",
+    "sparse voxel"
+   ],
+   "field": "3D生成与重建",
+   "innovations": [
+    "分割接地的显式部件身份定义",
+    "结构化跨部件残差交互机制",
+    "共享规范空间直接解码无需后处理对齐"
+   ],
+   "benchmarks": [
+    "PartObjectNet",
+    "PartObjaverse-Tiny"
+   ]
+  }
+ }
 }

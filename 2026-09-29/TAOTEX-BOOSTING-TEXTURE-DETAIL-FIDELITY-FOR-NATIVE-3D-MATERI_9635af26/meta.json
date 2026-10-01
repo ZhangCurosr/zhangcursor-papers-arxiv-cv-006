@@ -4,5 +4,10 @@
  "title": "TAOTEX-BOOSTING-TEXTURE-DETAIL-FIDELITY-FOR-NATIVE-3D-MATERI",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-29 08:01:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/52305080-14c7-4ac7-a70d-7f6935aa903d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/52305080-14c7-4ac7-a70d-7f6935aa903d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:35:31",
+  "chunks": 1
+ }
 }

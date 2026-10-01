@@ -4,5 +4,32 @@
  "title": "What-Makes-World-Action-Models-Generalize-An-Empirical-Study",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-29 19:07:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f0cac48d-0ae0-448e-9c8d-90783a195329.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f0cac48d-0ae0-448e-9c8d-90783a195329.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:40:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Models",
+    "test-time future modeling",
+    "robot policy generalization",
+    "embodied AI",
+    "video pretraining for control",
+    "efficient inference"
+   ],
+   "field": "具身智能策略泛化与高效推理",
+   "innovations": [
+    "揭示推理时未来建模对WAM泛化不可替代且仅需一次全噪声前向即可回收大部分增益",
+    "提出三轴（环境扰动/数据效率/任务泛化）受控泛化评测协议",
+    "Simple-WAM以近似潜在范式成本实现优于显式范式的泛化表现"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboTwin 2.0",
+    "AgileX Aloha 真机"
+   ]
+  }
+ }
 }

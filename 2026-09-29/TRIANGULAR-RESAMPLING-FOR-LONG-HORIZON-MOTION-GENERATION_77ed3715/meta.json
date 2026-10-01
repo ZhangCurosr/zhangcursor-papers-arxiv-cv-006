@@ -4,5 +4,29 @@
  "title": "TRIANGULAR-RESAMPLING-FOR-LONG-HORIZON-MOTION-GENERATION",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-09-29 19:07:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f2846821-b3f6-45fb-8e6e-2b972662f9b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f2846821-b3f6-45fb-8e6e-2b972662f9b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:36:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon motion generation",
+    "triangular denoising",
+    "rollout training",
+    "diffusion model",
+    "train-inference mismatch",
+    "distribution matching distillation"
+   ],
+   "field": "长程文本到动作生成",
+   "innovations": [
+    "提出 Triangular Resampling，将 rollout 训练扩展到三角形去噪窗内所有部分去噪状态，通过共享阈值 + GT clamp 控制漂移",
+    "将 DMD 与三角形 replay 结合（TR-DMD），在逐 token commit 结构下实现分布匹配",
+    "建立 120 秒序列 + 12 段 10 秒窗口 + FID AUC/退化斜率的统一长程评估协议"
+   ],
+   "benchmarks": [
+    "HumanML3D"
+   ]
+  }
+ }
 }

@@ -4,5 +4,45 @@
  "title": "THE-DEVIL-IS-IN-THE-SPECTRUM-BIAS-SPECTRUM-BALANCED-FEATURE",
  "token": "sk-alntNRIDw...",
  "created_at": "2026-09-29 08:01:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4544daa8-4bd9-406f-839f-09a0ac94e744.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4544daa8-4bd9-406f-839f-09a0ac94e744.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:36:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge distillation",
+    "feature matching",
+    "spectral bias",
+    "representation transfer",
+    "spectrum-balanced loss",
+    "foundation model compression",
+    "protein representation"
+   ],
+   "field": "知识蒸馏与高效表征学习",
+   "innovations": [
+    "揭示L2特征匹配的谱偏差并给出梯度方差依赖的理论分析",
+    "提出SpecMatch次线性聚合损失以自适应平衡不同主成分方向的优化",
+    "将谱平衡蒸馏从视觉扩展至蛋白质基础模型并验证跨模态泛化"
+   ],
+   "benchmarks": [
+    "CIFAR-10/100",
+    "NABirds",
+    "CUB",
+    "Camelyon17",
+    "ViSA",
+    "ImageNet few-shot",
+    "PFMBench (Fold/GO-MF/GO-CC/EC/Cat.Eff/DeepLoc2)",
+    "iNaturalist2018",
+    "FMoW",
+    "GTSRB",
+    "RESISC45",
+    "EuroSAT",
+    "OrganCMNIST",
+    "MvTec",
+    "iWildCam",
+    "SVHN"
+   ]
+  }
+ }
 }

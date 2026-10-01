@@ -4,5 +4,33 @@
  "title": "TIMELINE-BENCH-EVALUATING-AGENTS-ON-REALISTIC-VIDEO-EDITING",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-29 19:06:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7b20e647-abee-4b99-a0b8-208865d84f08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:36:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Editing",
+    "AI Agent Benchmark",
+    "Multimodal Evaluation",
+    "Creative AI",
+    "LLM-as-judge",
+    "Timelime Bench"
+   ],
+   "field": "多模态 Agent 评测",
+   "innovations": [
+    "首个要求端到端视频剪辑交付物的 Agent 基准，包含 56 个来自专业来源的完整任务",
+    "以 2,582 份专业编辑盲审判断校准的 LLM 质量测试，实现主观创意质量与自动评测的桥接",
+    "系统揭示 Agent 以静态帧和转录文本感知素材、以缺陷检查替代创意评判的行为模式"
+   ],
+   "benchmarks": [
+    "TIMELINE-BENCH",
+    "GDPval",
+    "VEBench",
+    "MEDit-Bench",
+    "AgenticVBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHEN-DOES-AN-IMAGE-DETERMINE-THE-ANSWER-BENCHMARKING-VISUAL",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-29 19:07:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/260a1c38-7de9-4df6-991d-7d0b8c348642.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/260a1c38-7de9-4df6-991d-7d0b8c348642.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:38:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual question answering",
+    "abstention",
+    "answerability",
+    "benchmark",
+    "evidence sufficiency",
+    "joint success",
+    "executable witness"
+   ],
+   "field": "多模态视觉推理与评估",
+   "innovations": [
+    "跨三领域（图表/合成/照片）的统一完整问题评估框架",
+    "可执行见证机制为图表缺失信息提供程序级证据",
+    "联合成功指标揭示决策正确但答案错误的隐藏失败"
+   ],
+   "benchmarks": [
+    "PlotQA",
+    "CLEVR",
+    "GQA"
+   ]
+  }
+ }
 }
