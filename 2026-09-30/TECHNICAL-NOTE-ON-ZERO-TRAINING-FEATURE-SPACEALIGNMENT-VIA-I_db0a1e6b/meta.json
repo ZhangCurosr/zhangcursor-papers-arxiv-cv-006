@@ -4,5 +4,31 @@
  "title": "TECHNICAL-NOTE-ON-ZERO-TRAINING-FEATURE-SPACEALIGNMENT-VIA-I",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-30 18:50:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c035240d-fb2a-4338-bb0e-7d7dc1423efa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c035240d-fb2a-4338-bb0e-7d7dc1423efa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:06:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time adaptation",
+    "Fisher information geometry",
+    "distribution shift",
+    "covariate shift",
+    "zero-training",
+    "feature alignment",
+    "robustness"
+   ],
+   "field": "测试时适配与分布偏移鲁棒性",
+   "innovations": [
+    "提出零训练Fisher几何对齐方法，通过闭式特征变换修正预测分布的几何畸变，无需梯度更新",
+    "证明Fisher白化比协方差白化更安全，保留分类器预测结构避免灾难性退化",
+    "建立Fisher几何畸变与适配增益的弱正相关，揭示分布偏移的几何本质"
+   ],
+   "benchmarks": [
+    "CIFAR-10-C",
+    "ImageNet-C"
+   ]
+  }
+ }
 }

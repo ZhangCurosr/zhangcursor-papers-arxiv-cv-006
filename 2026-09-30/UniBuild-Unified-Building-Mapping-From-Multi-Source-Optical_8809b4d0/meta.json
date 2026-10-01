@@ -4,5 +4,35 @@
  "title": "UniBuild-Unified-Building-Mapping-From-Multi-Source-Optical",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-09-30 08:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e5c9785f-2f28-4483-83cd-3bb3afebee03.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e5c9785f-2f28-4483-83cd-3bb3afebee03.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:06:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "building extraction",
+    "remote sensing",
+    "visual foundation model",
+    "multi-source generalization",
+    "boundary regularization",
+    "dense prediction"
+   ],
+   "field": "遥感影像建筑物提取",
+   "innovations": [
+    "HR-DPT解码器：门控残差融合高分辨率浅层细节以增强建筑边界恢复",
+    "方向感知损失：基于结构张量的边界方向一致性正则",
+    "鞍点感知损失：针对低分辨楼间距假阳性的空间加权Dice惩罚"
+   ],
+   "benchmarks": [
+    "INRIA",
+    "GF-7",
+    "Potsdam",
+    "Planet 4.8m",
+    "Sentinel-2 10m",
+    "Waterloo",
+    "LEVIR-CD"
+   ]
+  }
+ }
 }

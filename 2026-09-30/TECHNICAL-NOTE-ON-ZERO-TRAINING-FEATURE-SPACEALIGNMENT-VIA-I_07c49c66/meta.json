@@ -4,5 +4,31 @@
  "title": "TECHNICAL-NOTE-ON-ZERO-TRAINING-FEATURE-SPACEALIGNMENT-VIA-I",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-30 08:05:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c035240d-fb2a-4338-bb0e-7d7dc1423efa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c035240d-fb2a-4338-bb0e-7d7dc1423efa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:06:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time adaptation",
+    "distribution shift",
+    "Fisher information matrix",
+    "information geometry",
+    "training-free",
+    "feature alignment",
+    "robustness"
+   ],
+   "field": "分布偏移下的模型鲁棒性",
+   "innovations": [
+    "提出ZFGA闭式Fisher几何对齐方法，无需梯度更新即可校正特征空间的预测几何失真",
+    "揭示忽略预测结构的协方差白化对基座模型的破坏性，建立Fisher几何失真与鲁棒性增益的关联",
+    "在ResNet/DINO/CLIP三个模型族上实现唯一完全非负的训练无关适应方法"
+   ],
+   "benchmarks": [
+    "CIFAR-10-C",
+    "ImageNet-C"
+   ]
+  }
+ }
 }

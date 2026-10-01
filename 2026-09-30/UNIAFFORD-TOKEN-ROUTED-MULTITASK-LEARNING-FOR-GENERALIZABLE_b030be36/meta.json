@@ -4,5 +4,33 @@
  "title": "UNIAFFORD-TOKEN-ROUTED-MULTITASK-LEARNING-FOR-GENERALIZABLE",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-30 18:50:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/741016b2-b365-4ee3-8e83-0ef94bdfd804.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/741016b2-b365-4ee3-8e83-0ef94bdfd804.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:06:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "affordance perception",
+    "token routing",
+    "multimodal MLLM",
+    "2D-3D grounding",
+    "zero-shot generalization",
+    "semantic pseudo-pairing"
+   ],
+   "field": "多模态物体功能感知与稠密预测",
+   "innovations": [
+    "提出 Token Router for Tasks 解耦路由与语言生成，使稠密损失直接塑造共享 MLLM 表示",
+    "构建 UniAfford-Data 统一数据集与语义级伪配对机制，打通异构 2D/3D 标注",
+    "在 OOD zero-shot 与模态隔离协议下分别达到 AGD20K/GEAL*/ReasonAff/PIAD 的 SOTA 或次优性能"
+   ],
+   "benchmarks": [
+    "AGD20K",
+    "GEAL*",
+    "ReasonAff",
+    "PIAD",
+    "PIADv2"
+   ]
+  }
+ }
 }
