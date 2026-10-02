@@ -4,5 +4,31 @@
  "title": "V-JEPA-POLICY-BUILDING-EFFECTIVE-WORLD-ACTION-MODELS-ON-PRED",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-09-30 18:50:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c3cf214e-1c08-43a8-a342-cdd443507996.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c3cf214e-1c08-43a8-a342-cdd443507996.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:17:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World-Action Models",
+    "V-JEPA",
+    "Predictive Visual Latents",
+    "Flow Matching",
+    "Robot Manipulation",
+    "Distribution Shift"
+   ],
+   "field": "具身智能与视觉-动作模型",
+   "innovations": [
+    "构建于冻结预测性视觉潜空间的世界-动作模型，无需继承预训练生成器",
+    "层间上下文 key-value 接口实现预测-动作双向耦合",
+    "预测器仅在无动作标签视频数据上预训练并 transfer 到下游控制"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboCasa-GR1"
+   ]
+  }
+ }
 }
